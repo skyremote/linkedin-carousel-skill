@@ -1,0 +1,16 @@
+{
+  "company": "NavAIgate",
+  "url": "navaigate.dev",
+  "colors": {
+    "bg": "#0F172A",
+    "card_bg": "#1E293B",
+    "accent": "#3B82F6",
+    "accent_alt": "#8B5CF6",
+    "accent_tertiary": "#0EA5E9",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#CBD5E1",
+    "text_muted": "#64748B"
+  },
+  "font": "Poppins",
+  "font_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+}
