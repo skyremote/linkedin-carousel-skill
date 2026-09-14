@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Page Images"
+  short_description: "Generate complete sales pages and preserve them in PDFs"
+  default_prompt: "Use $sales-page-images to create branded portrait sales images and package the approved images into a carousel."

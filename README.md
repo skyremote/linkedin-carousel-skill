@@ -103,3 +103,23 @@ For Claude Code use `~/.claude/skills/`; for a Cursor setup that discovers proje
 Try: “Use sales-images-and-carousels to make five sales sheets in light and dark and five six-slide carousels for this offer. Use my logo and writing samples, and save the actual files.”
 
 The skill needs an image-capable host for generated images and a local renderer such as Node.js/Playwright for PDF and PNG exports. No API key is bundled or required just to read the skill; any external generation service needs your own authorised access. The prompt has explicit fallback instructions when a host cannot produce a file. Nothing is published automatically.
+
+
+## Sales Page Images — complete designed pages
+
+**Use this when you want the standalone sales images shown in the examples.** It generates the entire editorial page, including the copy and visual, and can package approved images directly into a portrait carousel PDF. It preserves the image design instead of rewriting it into square slides.
+
+[Read the Sales Page Images skill](skills/sales-page-images/SKILL.md) · [Browse the ten examples](skills/sales-page-images/examples/) · [See the original prompts](skills/sales-page-images/references/original-prompts.md)
+
+Install the whole `skills/sales-page-images` folder into your harness's skills directory, using the same clone-and-copy approach above. Keep existing installations intact. The companion skill remains available for explicitly requested square-slide adaptations.
+
+Try: “Use sales-page-images to make five standalone sales sheets in our theme, in light and dark. Once approved, make two portrait carousel PDFs with one unchanged image per page.”
+
+To package existing images locally, install Pillow and ReportLab, then run:
+
+```sh
+python3 -m pip install Pillow reportlab
+python3 skills/sales-page-images/scripts/images_to_pdf.py --output light-v1.pdf first-light.png second-light.png
+```
+
+Pass files in the intended order. The script refuses to overwrite an existing PDF. These PDFs preserve raster artwork; they do not create editable text or increase image resolution.

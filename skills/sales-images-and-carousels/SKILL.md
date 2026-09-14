@@ -31,7 +31,9 @@ Use the host's image-generation tool when image generation is requested. Generat
 
 ## Carousels
 
-Recompose the content into square 1080 × 1080 slides; do not shrink a dense portrait sheet into a square. A useful default is a hook, four slides developing the idea, and a final next action. Keep one idea per slide. Use the actual brand palette and logo, page numbers and consistent footers.
+First resolve whether the user wants the approved page images packaged unchanged or a new square-slide adaptation. For standalone image generation and image-preserving portrait carousels, use the companion [sales-page-images skill](../sales-page-images/SKILL.md). Do not rewrite approved images into square slides unless the user asks for that adaptation.
+
+For an explicitly requested square-slide adaptation: Recompose the content into square 1080 × 1080 slides; do not shrink a dense portrait sheet into a square. A useful default is a hook, four slides developing the idea, and a final next action. Keep one idea per slide. Use the actual brand palette and logo, page numbers and consistent footers.
 
 At this canvas size, body text around 28–36 px and headlines around 60–88 px are useful starting points. Inspect phone-size readability rather than trusting font sizes alone. Use light or dark according to the user and their brand; do not assert one universally performs better.
 

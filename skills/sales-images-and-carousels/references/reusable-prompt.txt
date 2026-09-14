@@ -38,7 +38,9 @@ Use a large headline, readable body copy, generous margins, strong alignment and
 
 Use the original logo asset. Where possible, place it as an exact asset after artwork generation, and set body text and numerical charts with a deterministic layout tool. If only image generation is available, inspect all text and the logo carefully and tell me what is still imperfect. Do not claim a generated approximation is an exact logo. Generate each requested image separately, not as a contact sheet.
 
-MAKE THE FIVE LINKEDIN CAROUSELS
+MAKE THE FIVE LINKEDIN CAROUSELS (OPTIONAL SQUARE ADAPTATION)
+
+If I ask for a carousel from approved sales-page images, package those images unchanged into a portrait PDF, one complete image per page, with separate light and dark PDFs. Do not apply the square adaptation below unless I explicitly request it.
 Adapt each angle into one six-slide carousel. Recompose the message for square slides rather than squeezing a dense portrait sheet onto a square background.
 
 Slide 1: a clear headline and one sentence explaining why it matters.
