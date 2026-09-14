@@ -1,0 +1,58 @@
+Help me turn one business offer into five separate sales images and five LinkedIn carousels, using the business details and reference images I provide below. Make the actual files if your environment supports it. Do not stop at giving me another set of briefs.
+
+MY BUSINESS
+Company: [name]
+Website: [URL, or paste the relevant website copy]
+Who buys from us: [specific audience]
+What we help them do: [plain description]
+What they struggle with today: [actual customer problems]
+What we deliver: [services, products and what is included]
+How we work: [real delivery process]
+Evidence we can use publicly: [verified results and sources, or write NONE]
+Next action for the reader: [one action and the correct destination]
+Writing style: [paste two or three examples of your own writing]
+Brand: [font, background, text colour and accent hex codes]
+Logo: [attach the actual logo file; do not ask the model to invent it]
+Output language: [e.g. British English]
+Output location: [folder, or downloadable attachments in chat]
+
+REFERENCE IMAGES
+I have attached example sales sheets. Use them to understand the hierarchy, spacing and restrained use of colour. They are design references, not evidence about my business. Do not copy their company identity, audience, claims or numbers into my work. Use my own brand assets and my own facts.
+
+START WITH THE MESSAGE
+Read the supplied business information and inspect the attached reference images. Ask only for missing information that would materially change the offer or make a claim unreliable. For optional design choices, use judgement and state the choice.
+
+Create five angles:
+1. Why this audience would work with us.
+2. The commercial case: show the mechanism and how we would measure it.
+3. What happens when someone engages us.
+4. How we work with the customer's existing team.
+5. Three concrete services, products or workflows we could explore.
+
+Each sales image must explain its own message without relying on the other four. Write clear copy in my voice. Use connected, ordinary sentences and avoid hype, jargon, invented stories, testimonials or guarantees. If there are no verified results, use a clearly labelled hypothetical example only when it helps. Show assumptions and calculations, put “Illustrative example — not a client result” immediately above the numbers, and never present released time as an automatic cash saving.
+
+MAKE THE FIVE SALES IMAGES
+Produce one separate portrait image for each angle, in A4 proportions. Make both light and dark variants: ten separate images in total. Aim for 2480 × 3508 pixels for A4 at 300 dpi when supported, and report the actual exported dimensions. Never describe a smaller digital image as print-ready.
+
+Use a large headline, readable body copy, generous margins, strong alignment and one meaningful visual per image. Use the accent colour sparingly. No website navigation, fake buttons, stock people, invented dashboards, client logos without permission or decorative clutter. Keep the message and layout consistent between each light/dark pair.
+
+Use the original logo asset. Where possible, place it as an exact asset after artwork generation, and set body text and numerical charts with a deterministic layout tool. If only image generation is available, inspect all text and the logo carefully and tell me what is still imperfect. Do not claim a generated approximation is an exact logo. Generate each requested image separately, not as a contact sheet.
+
+MAKE THE FIVE LINKEDIN CAROUSELS
+Adapt each angle into one six-slide carousel. Recompose the message for square slides rather than squeezing a dense portrait sheet onto a square background.
+
+Slide 1: a clear headline and one sentence explaining why it matters.
+Slides 2–5: develop the idea, one useful point per slide, with a practical example or process where supported.
+Slide 6: one clear next action.
+
+Use 1080 × 1080 slides, my brand colours, the real logo, a consistent footer and page numbers. Use one coherent theme, choosing the more readable one for the content. Keep core copy large enough to read on a phone: roughly 28–36 pixels for body text and 60–88 pixels for headlines at this canvas size, adjusting to fit without crowding.
+
+Export each carousel as its own multi-page PDF, each slide as a PNG and the editable HTML or equivalent source. Write one caption under 1,300 characters for each carousel, in my voice, with context, one next action and a small set of relevant hashtags. Do not claim anything has been published.
+
+CHECK BEFORE DELIVERING
+Read every image against its intended copy. Check spelling, logo, contrast, margins, clipping and legibility at phone size. Verify numbers independently. If a chart says 60 and 20, its bars must share a zero baseline and have exactly a 3:1 length ratio. Use code or a layout tool for precise charts if generation cannot achieve that.
+
+Count the outputs: ten portrait sales images, five six-page carousel PDFs, thirty slide PNGs, five captions and editable sources. Save versioned filenames, include the final prompt set and give me links to the files. List any unresolved defects honestly. Never substitute a combined preview sheet for the individual deliverables.
+
+TOOLS
+If you have skills named imagegen and linkedin-carousel, read and use them. Use my voice guide if one is supplied. If you cannot generate images, render PDFs or save files, explain the specific limitation and provide the completed copy and production specification for those missing outputs. Do not pretend the files exist. Do not switch to a paid external API without my instruction. Keep the work as a draft until I ask you to publish it.

@@ -79,3 +79,27 @@ Carousels are saved to `~/Documents/LinkedIn/{topic}/`:
 ---
 
 *Built with Claude Code by [NavAIgate](https://navaigate.dev)*
+
+
+## Sales images and carousels — new companion skill
+
+Turn one business offer into standalone sales sheets and swipeable carousels, with a reusable prompt your community can adapt. Built from five NavAIgate sales sheets in light and dark and five six-slide carousels.
+
+Read [the skill](skills/sales-images-and-carousels/SKILL.md), copy [the generic prompt](skills/sales-images-and-carousels/references/reusable-prompt.txt), or browse [the worked examples](skills/sales-images-and-carousels/examples/README.md). The examples include an explicitly documented image-generation chart defect and a corrected PDF so you can see what the review caught.
+
+### Install the companion skill
+
+Clone this repository into a permanent local folder, then copy the **whole skill folder**, including references and examples, into your harness's skills directory:
+
+```sh
+git clone https://github.com/skyremote/linkedin-carousel-skill.git
+mkdir -p ~/.codex/skills
+# Check that the destination does not already exist before copying.
+cp -R -n linkedin-carousel-skill/skills/sales-images-and-carousels ~/.codex/skills/
+```
+
+For Claude Code use `~/.claude/skills/`; for a Cursor setup that discovers project skills, use your project's `.cursor/skills/`. Restart or refresh discovery, then ask the assistant to read the installed SKILL.md. The original root-level LinkedIn Carousel skill remains separate.
+
+Try: “Use sales-images-and-carousels to make five sales sheets in light and dark and five six-slide carousels for this offer. Use my logo and writing samples, and save the actual files.”
+
+The skill needs an image-capable host for generated images and a local renderer such as Node.js/Playwright for PDF and PNG exports. No API key is bundled or required just to read the skill; any external generation service needs your own authorised access. The prompt has explicit fallback instructions when a host cannot produce a file. Nothing is published automatically.

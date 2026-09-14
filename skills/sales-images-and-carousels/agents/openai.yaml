@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Images and Carousels"
+  short_description: "Create branded sales sheets and LinkedIn carousel packs"
+  default_prompt: "Use $sales-images-and-carousels to turn my offer into branded sales sheets and LinkedIn carousels."

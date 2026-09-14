@@ -1,0 +1,21 @@
+Make your own sales images and LinkedIn carousels
+
+I've just made five sales sheets for NavAIgate, with a light and dark version of each, and then turned the five topics into separate LinkedIn carousels. I've included the images here so you can see what I asked for and compare the two treatments.
+
+What made the brief useful was being clear about who would read each image and what they needed to understand. One explains why someone would work with us, and another shows how we would test the commercial value. That gives each image a job before we start deciding what it looks like.
+
+There is also a useful mistake in the examples. The dark reporting chart says 60 hours and 20 hours, but the generated bars are still not exactly in proportion after two corrections. The numbers are an illustration, not a client result, and I would rebuild that chart with a layout tool before using it as a precise graphic. The carousel version uses fixed bar heights so we can check the ratio properly.
+
+So use the examples for the structure and spacing, and give the prompt your own business information, writing samples and actual logo. We are keeping the process, and replacing the business context with yours.
+
+1) Pick one offer you already understand, and write down who buys it, what they struggle with and what you actually deliver.
+
+2) Attach your real logo and one light and one dark example from this pack. Tell the tool these are visual references, so it does not carry NavAIgate's claims or identity into your work.
+
+3) Copy the prompt, replace the bracketed fields and run it in an environment that can generate images and export files. The prompt asks for the actual outputs and tells the tool to be honest about anything it cannot make.
+
+4) Open every image and read the copy. Check the logo and the figures, and look at the slides at phone size. These examples are about 1054 × 1492 pixels, which is useful for digital review; they are not 300 dpi A4 print masters.
+
+Start with your own offer and share the first image with the group, along with who it is for and what you want them to do next, and we can give you feedback on whether that comes across.
+
+Dan
